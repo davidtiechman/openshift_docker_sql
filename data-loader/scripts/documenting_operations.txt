@@ -1,0 +1,5 @@
+oc cp create_data.sql mysql-74456bc76d-74vsq:/tmp/create_data.sql
+oc exec -it mysql-74456bc76d-74vsq -- mysql -u root -p table_for_project -e "source /tmp/create_data.sql"
+
+oc cp insert_data.sql mysql-74456bc76d-74vsq:/tmp/insert_data.sql
+oc exec -i mysql-74456bc76d-74vsq -- mysql -u root -p mydb < /tmp/insert_names.sql
