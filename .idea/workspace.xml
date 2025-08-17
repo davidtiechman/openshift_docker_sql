@@ -4,18 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaefd75f-37d7-49de-9b06-beb7a5ae4de1" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/data-loader/scripts/commands.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-loader/scripts/creat_data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/openshift_docker_sql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/openshift_docker_sql.iml" afterDir="false" />
+    <list default="true" id="aaefd75f-37d7-49de-9b06-beb7a5ae4de1" name="Changes" comment="updated the commands to insert data.">
+      <change afterPath="$PROJECT_DIR$/data-loader/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-loader/services/DAL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-loader/services/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-loader/services/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-loader/services/results_table.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-loader/scripts/creat_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/data-loader/scripts/create_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-loader/scripts/documenting_operations.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data-loader/scripts/documenting_operations.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="start_working" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -41,11 +57,23 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.DAL.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;start__working&quot;
+    &quot;git-widget-placeholder&quot;: &quot;cline&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\openshift_docker_sql\data-loader\services" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -69,11 +97,55 @@
       <option name="project" value="LOCAL‎" />
       <updated>1755157844580</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎-00002" summary="create tow file for sql">
+      <option name="closed" value="true" />
+      <created>1755167782986</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL‎-00002" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1755167782986</updated>
+    </task>
+    <task id="LOCAL‎-00003" summary="update the file">
+      <option name="closed" value="true" />
+      <created>1755168199194</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1755168199194</updated>
+    </task>
+    <task id="LOCAL‎-00004" summary="update the file">
+      <option name="closed" value="true" />
+      <created>1755168475077</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1755168475077</updated>
+    </task>
+    <task id="LOCAL‎-00005" summary="I updated the commands to create columns and insert data.">
+      <option name="closed" value="true" />
+      <created>1755172700664</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL‎-00005" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1755172700664</updated>
+    </task>
+    <task id="LOCAL‎-00006" summary="updated the commands to insert data.">
+      <option name="closed" value="true" />
+      <created>1755172930807</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL‎-00006" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1755172930807</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="create tow file for sql" />
+    <MESSAGE value="update the file" />
+    <MESSAGE value="I updated the commands to create columns and insert data." />
+    <MESSAGE value="updated the commands to insert data." />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the commands to insert data." />
   </component>
 </project>
